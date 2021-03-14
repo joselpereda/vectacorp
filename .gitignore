@@ -1,3 +1,6 @@
 assignment.docx
 package*.json
-node_modules/*.*
+gulpfile.js
+node_modules/**/*.*
+node_modules/**/**/*.*
+node_modules/**/**/**/*.*
