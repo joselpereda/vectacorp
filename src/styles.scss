@@ -7,10 +7,11 @@
 @import "modules/backgrounds";
 @import "modules/media";
 @import "modules/tables";
+@import "modules/header"
 
 
 /* BASIC STYLES */
-body                        {font-family: 'Roboto', sans-serif;font-size:1em;line-height:2em;background:url($backgroundImage) $headingsColor1 repeat-x;margin:0;}
+body                        {font-family: $font-Body, sans-serif;font-size:1em;line-height:2em;background:url($backgroundImage) $headingsColor1 repeat-x;margin:0;}
 main                        {width:940px;margin:0 auto;padding:0 10px;}
 
 /* NAVIGATION */
@@ -22,11 +23,11 @@ nav ul li a                 {color:$headlineColor;text-decoration:none;letter-sp
 nav ul li a:hover           {color:$headingsColor1;}
 
 /* HEADER */
-header                      {width:inherit;clear:both;text-align:center;padding-top:40px;}
-header img                  {max-width:100%;height:auto;}
-header h1                   {color:$headlineColor;font-weight:100;font-size:4em;line-height:0;}
-header h2                   {color:$headingsColor1;font-weight:900;font-size:2.5em;line-height:0;margin-bottom:70px;}
-header h3                   {color:$headingsColor2;font-weight:400;font-size:2em;line-height:0;margin-bottom:50px;}
+//header                      {width:inherit;clear:both;text-align:center;padding-top:40px;}
+// header img                  {max-width:100%;height:auto;}
+// header h1                   {color:$headlineColor;font-weight:100;font-size:4em;line-height:0;}
+// header h2                   {color:$headingsColor1;font-weight:900;font-size:2.5em;line-height:0;margin-bottom:70px;}
+// header h3                   {color:$headingsColor2;font-weight:400;font-size:2em;line-height:0;margin-bottom:50px;}
 
 /* CONTENT */
 #headline                   {width:100%;height:130px;background:$headlineColor2;text-align:center;margin:0 auto;}

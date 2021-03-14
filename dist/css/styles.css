@@ -305,7 +305,7 @@ template {
 
 /* BASIC STYLES */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   line-height: 2em;
   background: url("../images/bg.gif") #FFF repeat-x;
