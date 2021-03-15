@@ -1,0 +1,11 @@
+@mixin headerTags ($color, $font-Weight, $font-Size, $line-Height) {
+    color: $color;
+    font-weight:$font-Weight;
+    font-size:$font-Size;
+    line-height:$line-Height;
+}
+
+@mixin backImage($max-Width:100%, $height:auto) {
+    max-width:$max-Width;
+    height:$height;
+}

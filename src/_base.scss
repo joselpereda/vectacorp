@@ -1,0 +1,35 @@
+/* BASIC STYLES */
+body {
+    font-family: $font-Body, sans-serif;
+    font-size:1em;line-height:2em;
+    background:url($bgImage) $headingsColor1 repeat-x;
+    margin:0;
+}
+main {
+    width:940px;
+    margin:0 auto;
+    padding:0 10px;
+}
+
+header {
+    width:inherit
+    ;clear:both;
+    text-align:center
+    ;padding-top:40px;
+
+    img {
+        @include backImage (100%, auto); 
+    }
+
+    h1 {
+        @include headerTags ($headlineColor, 100, 4em, 0); 
+    }
+    h2 {
+        @include headerTags ($headingsColor1, 900, 2.5em, 0);
+        margin-bottom:70px;
+    }
+    h3 {
+        @include headerTags ($headingsColor2, 400, 2em, 0);
+        margin-bottom:50px;
+    }
+}
