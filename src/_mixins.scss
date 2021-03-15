@@ -1,4 +1,4 @@
-@mixin headerTags ($color, $font-Weight, $font-Size, $line-Height) {
+@mixin headerTags ($color: #FFF, $font-Weight: 500, $font-Size: 2.5em, $line-Height:0) {
     color: $color;
     font-weight:$font-Weight;
     font-size:$font-Size;
@@ -8,4 +8,8 @@
 @mixin backImage($max-Width:100%, $height:auto) {
     max-width:$max-Width;
     height:$height;
+}
+
+@mixin footerSocialMediaImage ($backImage: url('../images/social-media.png') 0 0) {
+    background: $backImage;
 }
