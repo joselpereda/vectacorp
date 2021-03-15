@@ -30,6 +30,7 @@ nav {
     }
 }
 
+/* MEDIA QUERIES*/
 //@media screen and (max-width:959px) 
 @include break(768px, 959px) {
     main                        {width:768px;}

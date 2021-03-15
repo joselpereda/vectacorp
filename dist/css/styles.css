@@ -404,6 +404,7 @@ nav {
         nav ul li a:hover {
           color: #FFF; }
 
+/* MEDIA QUERIES*/
 @media (min-width: 768px) and (max-width: 959px) {
   main {
     width: 768px; }
@@ -506,7 +507,8 @@ footer {
 
 .social-media {
   margin: 0 auto;
-  width: 165px; }
+  width: 165px;
+  /*use math operations, sort of :( */ }
   .social-media div {
     float: left;
     margin-right: 5px; }
