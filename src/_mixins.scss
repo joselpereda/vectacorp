@@ -23,8 +23,8 @@
     margin: $margin;
 }
 
-@mixin break($length) {
-    @media (min-width: $length) {
+@mixin break($minLength: 768px, $maxLength: 959px) {
+    @media (min-width: $minLength) and (max-width: $maxLength) {
         @content;
     }
 }
