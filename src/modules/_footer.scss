@@ -32,17 +32,22 @@ footer {
 
     //use math operations
     $baseline: -38;
-    
+    $divOne: $baseline * 0;
+    $divTwo: $baseline * 2;
+    $divThree: $baseline * 1;
+    $divFour: $baseline * 3;
+
+
     div.one {
-        @include footerSocialMediaImage(url($socialMediaImage) 0 0);
+        @include footerSocialMediaImage(url($socialMediaImage) $divOne + px 0);
     }
     div.two {
-        @include footerSocialMediaImage(url($socialMediaImage) -76px 0);
+        @include footerSocialMediaImage(url($socialMediaImage) $divTwo + px 0);
     }
     div.three {
-        @include footerSocialMediaImage(url($socialMediaImage) -38px 0);
+        @include footerSocialMediaImage(url($socialMediaImage) $divThree + px 0);
     }
     div.four {
-        @include footerSocialMediaImage(url($socialMediaImage) -114px 0);
+        @include footerSocialMediaImage(url($socialMediaImage) $divFour + px 0);
     }
 }
