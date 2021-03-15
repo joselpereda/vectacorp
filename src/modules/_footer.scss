@@ -29,6 +29,9 @@ footer {
         height:36px;
         text-indent:-9999px;
     }
+
+    //use math operations
+    $baseline: -38;
     div.one {
         @include footerSocialMediaImage(url($socialMediaImage) 0 0);
     }
