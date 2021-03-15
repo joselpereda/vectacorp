@@ -22,3 +22,9 @@
     display: $display;
     margin: $margin;
 }
+
+@mixin break($length) {
+    @media (min-width: $length) {
+        @content;
+    }
+}
