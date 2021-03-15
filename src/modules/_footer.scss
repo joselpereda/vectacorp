@@ -1,0 +1,44 @@
+/* FOOTER */
+.greybar {
+    width:100%;
+    height:90px;
+    background:$greyBarColor;
+    clear:both;
+    padding-top:30px;
+}
+footer {
+    width:100%;
+    height:120px;
+    background:$footerColor;
+    text-align:center;
+    color:$headingsColor1;
+    padding-top:50px;
+}
+
+.social-media {
+    margin:0 auto;
+    width:165px;
+
+    div {
+        float:left;
+        margin-right:5px;
+    }
+    a {
+        display:block;
+        width:36px;
+        height:36px;
+        text-indent:-9999px;
+    }
+    div.one {
+        @include footerSocialMediaImage(url($socialMediaImage) 0 0);
+    }
+    div.two {
+        @include footerSocialMediaImage(url($socialMediaImage) -76px 0);
+    }
+    div.three {
+        @include footerSocialMediaImage(url($socialMediaImage) -38px 0);
+    }
+    div.four {
+        @include footerSocialMediaImage(url($socialMediaImage) -114px 0);
+    }
+}
