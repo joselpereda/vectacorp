@@ -450,8 +450,7 @@ nav {
   #headline h1 {
     font-size: 2em;
     padding-top: 50px; }
-  #content #products,
-  #content #testimonials {
+  #content #products, #content #testimonials {
     width: 96%;
     margin: 0 2%;
     float: none; } }
@@ -485,9 +484,9 @@ nav {
     display: none; }
   footer {
     text-align: center; }
-  footer p, footer img {
-    float: none;
-    margin: 0; } }
+    footer p, footer footer img {
+      float: none;
+      margin: 0; } }
 
 /* FOOTER */
 .greybar {
